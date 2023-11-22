@@ -1,0 +1,104 @@
+.box {
+  width: 1618px;
+  height: 974px;
+}
+
+.box .book-page {
+  position: fixed;
+  width: 1618px;
+  height: 974px;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px dashed;
+  border-color: #9747ff;
+}
+
+.box .overlap-group {
+  position: relative;
+  width: 1578px;
+  height: 934px;
+  top: 20px;
+  left: 20px;
+  background-color: #d9d9d9;
+  border-radius: 30px;
+}
+
+.box .property-rectangle {
+  position: absolute;
+  width: 260px;
+  height: 333px;
+  top: 61px;
+  left: 31px;
+  background-image: url(./img/rectangle-774.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.box .property-frame {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 51px;
+  left: 310px;
+}
+
+.box .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 46px;
+  letter-spacing: 0;
+  line-height: 82px;
+  white-space: nowrap;
+}
+
+.box .img {
+  position: absolute;
+  width: 164px;
+  height: 32px;
+  top: 227px;
+  left: 334px;
+}
+
+.box .div {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  top: 772px;
+  left: 1305px;
+}
+
+.box .add-cart {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 28px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #8e9bb0;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.box .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 33px;
+  text-align: center;
+  letter-spacing: 1.32px;
+  line-height: normal;
+}

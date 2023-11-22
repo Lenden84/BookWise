@@ -1,0 +1,104 @@
+.thanks {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 3px 0px;
+  position: relative;
+}
+
+.thanks .overlap-group-wrapper {
+  position: relative;
+  width: 1211px;
+  height: 740px;
+  background-color: #a1a1a1;
+  border-radius: 171px;
+  border: 1px solid;
+  border-color: #707070;
+}
+
+.thanks .overlap-group {
+  position: relative;
+  width: 1178px;
+  height: 697px;
+  top: 24px;
+  left: 16px;
+  background-color: #e1e1e1;
+  border-radius: 171px;
+  border: 1px solid;
+  border-color: #707070;
+}
+
+.thanks .rectangle {
+  position: absolute;
+  width: 1132px;
+  height: 623px;
+  top: 36px;
+  left: 22px;
+  background-color: #4a977c;
+  border-radius: 171px;
+  border: 1px solid;
+  border-color: #707070;
+}
+
+.thanks .frame {
+  display: inline-flex;
+  height: 365px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 23px 34px 24px 27px;
+  position: absolute;
+  top: 113px;
+  left: 123px;
+}
+
+.thanks .thank-your-for {
+  position: relative;
+  width: fit-content;
+  margin-top: -8px;
+  margin-bottom: -4px;
+  margin-left: -1px;
+  -webkit-text-stroke: 1px #707070;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 700;
+  font-style: italic;
+  color: #000000;
+  font-size: 121px;
+  text-align: center;
+  letter-spacing: 4.84px;
+  line-height: normal;
+}
+
+.thanks .home {
+  display: inline-flex;
+  height: 84px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 50px 16px 56px;
+  position: absolute;
+  top: 524px;
+  left: 464px;
+  background-color: #4a7397;
+  border-radius: 171px;
+  border: 1px solid;
+  border-color: #707070;
+}
+
+.thanks .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -17px;
+  margin-bottom: -13px;
+  margin-left: -1px;
+  -webkit-text-stroke: 1px #707070;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 700;
+  font-style: italic;
+  color: #000000;
+  font-size: 62px;
+  text-align: center;
+  letter-spacing: 2.48px;
+  line-height: normal;
+}
